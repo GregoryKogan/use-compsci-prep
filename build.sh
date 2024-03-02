@@ -1,8 +1,24 @@
 #!/bin/bash
 
-rm -rf out
+SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+cd $SCRIPTPATH
+
+# Check if eisvogel template exists
+if [ ! -f ./templates/eisvogel.tex ]; then
+  if [ ! -d ./templates ]; then
+    mkdir ./templates
+  fi
+  echo "Templates not found. Downloading..."
+  curl https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o ./templates/eisvogel.tex
+fi
+
+# Remove old output
+if [ -d ./out ]; then
+  rm -rf ./out
+fi
 mkdir out
 
+# Build output
 args=(
   --pdf-engine=xelatex
 #   -f markdown+implicit_figures
@@ -25,4 +41,6 @@ args=(
 #   --verbose
 )
 
-pandoc src/*.md -o out/theory-1-4.pdf ${args[@]}
+pandoc src/*.md -o out/theory.pdf ${args[@]}
+
+cd - > /dev/null

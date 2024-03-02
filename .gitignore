@@ -1,2 +1,4 @@
 out
+templates
 .DS_Store
+.vscode
