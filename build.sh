@@ -28,7 +28,7 @@ args=(
   --template=templates/eisvogel.tex
   --listings
   --toc
-  --toc-depth=3
+  --toc-depth=4
   --highlight-style=pygments
 #   --number-sections
 #   --include-in-header=templates/header.tex
