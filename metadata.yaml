@@ -9,7 +9,7 @@ header-includes: |
   \usepackage[normalem]{ulem}
 toc-own-page: true
 titlepage: true
-titlepage-color: 06386e
-titlepage-text-color: FFFFFF
-titlepage-rule-color: FFFFFF
+titlepage-background: "assets/tp-bg.pdf"
+titlepage-text-color: "181818"
+titlepage-rule-color: "AAAAAA"
 disable-header-and-footer: false
