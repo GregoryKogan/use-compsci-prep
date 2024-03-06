@@ -41,6 +41,8 @@ args=(
   # --verbose
 )
 
+./scripts/optimize_images.sh
+
 pandoc src/*.md -o out/theory.pdf ${args[@]}
 
 cd - > /dev/null

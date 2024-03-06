@@ -1,5 +1,6 @@
 out
 templates
+src/images
 venv
 __pycache__
 .DS_Store
