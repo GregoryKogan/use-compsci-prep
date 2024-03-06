@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-cd $SCRIPTPATH
+cd $SCRIPTPATH/..
 
 # Check if eisvogel template exists
 if [ ! -f ./templates/eisvogel.tex ]; then
