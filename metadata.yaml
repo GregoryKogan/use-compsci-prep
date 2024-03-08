@@ -3,7 +3,7 @@ author: [Когановский Г.И.]
 date: "2024"
 geometry: margin=2cm
 lang: ru
-linkcolor: PineGreen
+linkcolor: NavyBlue
 header-includes: |
   \usepackage[utf8]{inputenc}
   \usepackage[normalem]{ulem}
@@ -13,3 +13,4 @@ titlepage-background: "assets/tp-bg.pdf"
 titlepage-text-color: "181818"
 titlepage-rule-color: "AAAAAA"
 disable-header-and-footer: false
+listings-no-page-break: true
