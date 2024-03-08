@@ -90,7 +90,14 @@ _Ответ: 64_
 
 _Все 7-ые задания решаются с помощью простых уравнений. Решать их на бумаге, конечно же, не надо. У вас в распоряжении есть компьютер с Python и Excel - пользуйтесь._
 
-![](src/images/2-lesson/image3.jpg){ width=50% }
+```shell
+$ python3
+Python x.y.z (main, date, time)
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from math import *
+>>> log2(256)
+8.0
+```
 
 #### Длительность аудио
 
