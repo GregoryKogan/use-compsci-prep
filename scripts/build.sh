@@ -32,6 +32,7 @@ args=(
   --toc
   --toc-depth=3
   # --number-sections
+  --top-level-division=default
   # --include-in-header=templates/header.tex
   # --include-before-body=templates/before-body.tex
   # --include-after-body=templates/after-body.tex

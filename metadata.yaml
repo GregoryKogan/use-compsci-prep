@@ -20,3 +20,8 @@ disable-header-and-footer: false
 listings-no-page-break: false
 caption-justification: centering
 footnotes-pretty: true
+book: true
+header-right: \rightmark
+header-left: \thepage
+footer-left: "\\\ "
+footer-right: "\\\ "
