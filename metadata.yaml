@@ -19,3 +19,4 @@ titlepage-rule-color: "AAAAAA"
 disable-header-and-footer: false
 listings-no-page-break: false
 caption-justification: centering
+footnotes-pretty: true
