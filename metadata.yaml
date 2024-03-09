@@ -9,11 +9,13 @@ header-includes: |
   \usepackage[normalem]{ulem}
   \usepackage{caption}
   \captionsetup[figure]{labelformat=empty}
+  \usepackage{sectsty}
+  \sectionfont{\clearpage}
 toc-own-page: true
 titlepage: true
 titlepage-background: "assets/tp-bg.pdf"
 titlepage-text-color: "181818"
 titlepage-rule-color: "AAAAAA"
 disable-header-and-footer: false
-listings-no-page-break: true
+listings-no-page-break: false
 caption-justification: centering
