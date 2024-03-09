@@ -16,7 +16,6 @@ def optimize_images(input_dir, output_dir, quality):
 
 
 def optimize_image(input_dir, file_path, output_dir, quality):
-    print(f"Optimizing {file_path}")
     try:
         img = Image.open(file_path)
         img.thumbnail((MAX_SIZE, MAX_SIZE))
