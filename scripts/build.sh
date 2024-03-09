@@ -31,7 +31,6 @@ args=(
   --listings
   --toc
   --toc-depth=3
-  --highlight-style=pygments
   # --number-sections
   # --include-in-header=templates/header.tex
   # --include-before-body=templates/before-body.tex
