@@ -24,6 +24,8 @@ args=(
   # -f markdown+implicit_figures
   --lua-filter=filters/strikeout.lua
   --lua-filter=filters/underline.lua
+  --lua-filter=filters/center-images.lua
+  # --lua-filter=filters/word-count.lua
   -V block-headings
   --template=templates/eisvogel.tex
   --listings
