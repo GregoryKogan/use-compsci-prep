@@ -1,7 +1,7 @@
 title: Подготовка к ЕГЭ по информатике
 author: [Когановский Г.И.]
 date: "2024"
-geometry: margin=2cm
+geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm, footskip=5cm"
 lang: ru
 linkcolor: NavyBlue
 header-includes: |
