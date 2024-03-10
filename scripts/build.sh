@@ -21,7 +21,6 @@ mkdir out
 # Build output
 args=(
   --pdf-engine=xelatex
-  # -f markdown+implicit_figures
   --lua-filter=filters/strikeout.lua
   --lua-filter=filters/underline.lua
   --lua-filter=filters/center-images.lua
@@ -31,16 +30,10 @@ args=(
   --listings
   --toc
   --toc-depth=3
-  # --number-sections
   --top-level-division=default
-  # --include-in-header=templates/header.tex
-  # --include-before-body=templates/before-body.tex
-  # --include-after-body=templates/after-body.tex
   --metadata-file=metadata.yaml
   --citeproc
   --bibliography=references.bib
-  # --csl=templates/ieee.csl
-  # --verbose
 )
 
 ./scripts/optimize_images.sh
