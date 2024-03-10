@@ -11,6 +11,13 @@ header-includes: |
   \captionsetup[figure]{labelformat=empty}
   \usepackage{sectsty}
   \sectionfont{\clearpage}
+  \RedeclareSectionCommand[
+    beforeskip=-10pt plus -2pt minus -1pt,
+    afterskip=1sp plus -1sp minus 1sp]{paragraph}
+  \RedeclareSectionCommand[
+    beforeskip=-10pt plus -2pt minus -1pt,
+    afterskip=1sp plus -1sp minus 1sp,
+    indent=0pt]{subparagraph}
 toc-own-page: true
 titlepage: true
 titlepage-background: "assets/tp-bg.pdf"
