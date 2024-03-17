@@ -28,7 +28,7 @@ titlepage-text-color: "FFFFFF"
 titlepage-rule-color: "360049"
 titlepage-rule-height: -1
 disable-header-and-footer: false
-listings-no-page-break: false
+listings-no-page-break: true
 caption-justification: centering
 footnotes-pretty: true
 book: true
