@@ -1,4 +1,5 @@
 title: Подготовка к ЕГЭ по информатике
+subtitle: "Практическое руководство"
 author: [Когановский Г.И.]
 date: "2024"
 geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm, footskip=5cm"
@@ -21,8 +22,11 @@ header-includes: |
 toc-own-page: true
 titlepage: true
 titlepage-background: "assets/tp-bg.pdf"
-titlepage-text-color: "181818"
-titlepage-rule-color: "AAAAAA"
+titlepage-logo: "assets/logo-mephi.pdf"
+logo-width: "50mm"
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "360049"
+titlepage-rule-height: -1
 disable-header-and-footer: false
 listings-no-page-break: false
 caption-justification: centering
