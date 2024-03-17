@@ -92,7 +92,7 @@ _Ответ: 64_
 
 _Все 7-ые задания решаются с помощью простых уравнений. Решать их на бумаге, конечно же, не надо. У вас в распоряжении есть компьютер с Python и Excel - пользуйтесь._
 
-```shell
+```shell {title="Пример использования консоли Python в качестве калькулятора"}
 $ python3
 Python x.y.z (main, date, time)
 Type "help", "copyright", "credits" or "license" for more information.
