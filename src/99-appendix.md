@@ -57,7 +57,7 @@ sudo pacman -S python3
 
 ### Установка среды разработки
 
-Вы вольны выбрать любую среду разработки или текстовый редактор, который вам нравится. Мы рекомендуем использовать [PyCharm Community Edition](https://www.jetbrains.com/pycharm) или [Visual Studio Code](https://code.visualstudio.com/). Обе программы бесплатны и поддерживают работу с Python.
+Вы вольны выбрать любую среду разработки или текстовый редактор, который вам нравится. Мы рекомендуем использовать [PyCharm Community Edition](https://www.jetbrains.com/pycharm) или [Visual Studio Code](https://code.visualstudio.com/). Обе программы бесплатны и поддерживают работу с Python. В случае использования Visual Studio Code, вам также понадобится установить расширение для работы с Python.
 
 ## Как установить офисный пакет
 
