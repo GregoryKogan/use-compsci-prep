@@ -29,7 +29,7 @@ args=(
   --template=templates/eisvogel.tex
   --listings
   --toc
-  --toc-depth=3
+  --toc-depth=2
   --top-level-division=default
   --metadata-file=metadata.yaml
   --citeproc
